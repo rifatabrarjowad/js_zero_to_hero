@@ -9,6 +9,8 @@ function ap(a, b) {
     console.log(a + b);
 }
 ap(5, 6)
-var a = 2
-var b = 3
-console.log("first number is ${a}");
+
+
+const age = ageCal => 2021 - ageCal;
+const age2 = age(2004);
+console.log(age2);
