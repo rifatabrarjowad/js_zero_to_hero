@@ -9,3 +9,7 @@ document.querySelector('.check').addEventListener('click', function () {
     console.log(guess, typeof guess);
 
 })
+
+if (!guess) {
+    document.querySelector('.massage').textContent = 'No number !';
+}
