@@ -1,9 +1,7 @@
 'use strict';
 
-const x = function () {
-    console.log(23);
-};
-
+const secretNumber = Math.trunc(Math.random() * 20) + 1;
+// const secretNumber = 3;
 document.querySelector('.check').addEventListener('click', function () {
     const guess = Number(document.querySelector('.guess').value);
     console.log(guess, typeof guess);
